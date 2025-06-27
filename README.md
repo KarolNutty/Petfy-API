@@ -1,7 +1,3 @@
-
----
-
-```markdown
 # 🐾 Petfy API
 
 API REST desenvolvida com **FastAPI** para gerenciar pets disponíveis para adoção.  
