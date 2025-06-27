@@ -1,8 +1,10 @@
 from fastapi.testclient import TestClient
 from app.main import app
+from app.core.database import create_db
+
+create_db()  # cria as tabelas antes dos testes
 
 client = TestClient(app)
-
 
 def test_create_pet():
     payload = {
